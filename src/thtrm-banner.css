@@ -1,0 +1,83 @@
+@import './custom-media';
+
+.thtrm-banner {
+  background-image: url('assets/intro-background-mobile.jpg');
+  background-position: center center;
+  background-size: cover;
+
+  @media all and (--tablet-viewport) {
+    background-image: url('assets/intro-background-tablet.jpg');
+  }
+
+  @media all and (--desktop-viewport) {
+    background-image: url('assets/intro-background-desktop.jpg');
+  }
+}
+
+.thtrm-banner-text {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 1px 1px 10px #000;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 36px;
+
+  @media all and (--phablet-viewport) {
+    font-size: 44px;
+  }
+
+  @media all and (--tablet-viewport) {
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  @media all and (--desktop-viewport) {
+    font-size: 78px;
+    line-height: 68px;
+  }
+}
+
+.thtrm-banner-tagline {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+  font-weight: 600;
+  width: 300px;
+
+  @media all and (--phablet-viewport) {
+    font-size: 18px;
+    line-height: 22px;
+    width: 420px;
+  }
+
+  @media all and (--tablet-viewport) {
+    font-size: 20px;
+    line-height: 32px;
+    width: 600px;
+  }
+
+  @media all and (--desktop-viewport) {
+    width: 800px;
+  }
+}
+
+.thtrm-banner-container {
+  padding: 10em 0.5em;
+
+  @media all and (--tablet-viewport) {
+    padding-top: 16em;
+    padding-bottom: 16em;
+  }
+
+  @media all and (--desktop-viewport) {
+    padding-top: 18em;
+    padding-bottom: 20em;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "CSS used across thoughtram projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.8.2",
+    "csstyle": "^1.5.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "postcss": "^5.0.2",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^7.1.3",
+    "postcss-nested": "^1.0.0"
+  }
+}

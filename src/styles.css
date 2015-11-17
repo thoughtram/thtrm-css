@@ -1,0 +1,155 @@
+/* @import 'http://fonts.googleapis.com/css?family=Droid+Sans:400,700'; */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
+@import './variables';
+@import './custom-media';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+button {
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: #DDD;
+  /* font-family: 'Droid Sans', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.thtrm-main {
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  min-height: 100%;
+
+  @media all and (--desktop-viewport) {
+    min-height: initial;
+  }
+}
+
+.thtrm-background-blue,
+.thtrm-background-dark-blue,
+.thtrm-background-darker-blue {
+  color: #fff;
+}
+
+.thtrm-background-blue {
+  background: var(--thtrm-color-blue);
+}
+
+.thtrm-background-dark-blue {
+  background: var(--thtrm-color-dark-blue);
+}
+
+.thtrm-background-darker-blue {
+  background: var(--thtrm-color-darker-blue);
+}
+
+.thtrm-background-light-gray {
+  background: red;
+}
+
+.thtrm-section {
+  padding: 5em 2em;
+
+  @media all and (--desktop-viewport) {
+    padding: 10em 6em;
+  }
+}
+
+.thtrm-section-headline {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+
+  @media all and (--desktop-viewport) {
+    font-weight: 600;
+    font-size: 42px;
+  }
+}
+
+.thtrm-section-text {
+  margin-top: 1em;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+
+  @media all and (--desktop-viewport) {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.thtrm-layout-constraint {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @media all and (--tv-viewport) {
+    max-width: 1400px;
+  }
+}
+
+.thtrm-layout-divider {
+  height: 300px;
+
+  @media all and (--tablet-viewport) {
+    height: 600px;
+  }
+}
+
+.thtrm-background-ppl {
+  background-image: url('assets/intro-background-ppl-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media all and (--tablet-viewport) {
+    background-image: url('assets/intro-background-ppl-tablet.jpg');
+  }
+
+  @media all and (--desktop-viewport) {
+    background-image: url('assets/intro-background-ppl-desktop.jpg');
+  }
+}
+
+.thtrm-background-ppl-2 {
+  background-image: url('assets/intro-background-ppl-2-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media all and (--tablet-viewport) {
+    background-image: url('assets/intro-background-ppl-2-tablet.jpg');
+  }
+
+  @media all and (--desktop-viewport) {
+    background-image: url('assets/intro-background-ppl-2-desktop.jpg');
+  }
+}
+
+@import './thtrm-header';
+@import './thtrm-banner';
+@import './thtrm-table-layout';

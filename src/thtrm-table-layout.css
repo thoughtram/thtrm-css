@@ -1,0 +1,30 @@
+@import './custom-media';
+
+.thtrm-table-layout {
+  display: block;
+  width: 100%;
+
+  @media all and (--tablet-viewport) {
+    display: table;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+}
+
+.thtrm-table-layout-row {
+  @media all and (--tablet-viewport) {
+    display: table-row;
+    overflow: hidden;
+  }
+}
+
+.thtrm-table-layout-cell {
+  vertical-align: top;
+  height: 100%;
+  min-height: 320px;
+
+  @media all and (--tablet-viewport) {
+    display: table-cell;
+    width: 50%;
+  }
+}

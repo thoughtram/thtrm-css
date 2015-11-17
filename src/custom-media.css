@@ -1,0 +1,4 @@
+@custom-media --phablet-viewport (min-width: 640px);
+@custom-media --tablet-viewport (min-width: 840px);
+@custom-media --desktop-viewport (min-width: 990px);
+@custom-media --tv-viewport (min-width: 1500px);
