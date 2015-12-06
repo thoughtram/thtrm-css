@@ -3,7 +3,7 @@
 
 .thtrm-header {
   display: block;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .thtrm-header-bar {
@@ -14,7 +14,7 @@
   position: relative;
 
   @media (--tablet-viewport) {
-    height: 100px;
+    height: initial;
   }
 }
 
@@ -30,9 +30,9 @@
   @media (--tablet-viewport) {
     width: 260px;
     height: 61px;
-    background-image: url('assets/thoughtram-logo-desktop.png');
+    background-image: url('assets/thoughtram-logo-desktop_white.png');
     background-size: 260px auto;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 40px;
   }
 
@@ -132,7 +132,7 @@
   top: 70px;
   padding: 0;
   margin: 0;
-  background: #fff;
+  background: transparent;
   display: none;
   list-style: none;
 
@@ -140,6 +140,7 @@
     position: static;
     align-items: stretch;
     display: flex;
+    margin-top: 20px;
 
     li {
       display: flex;
@@ -179,21 +180,21 @@
   padding: 0.8em;
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 900;
-  color: #333;
+  font-weight: 700;
+  color: #fff;
   display: block;
+  border: 2px solid transparent;
 
   &:hover,
   &:focus,
   &.--active {
     color: #fff;
-    background-color: var(--thtrm-color-dark-blue);
+    /* background-color: var(--thtrm-color-dark-blue); */
+    border: 2px solid #fff;
   }
 
   @media (--tablet-viewport) {
-    padding-top: 40px;
     width: 112px;
-    letter-spacing: -0.5px;
       
     .--has-dropdown & {
       width: 100%;
@@ -204,8 +205,10 @@
   }
 
   @media (--tablet-viewport) {
-    font-size: 20px;
-    width: 124px;
+    font-size: 22px;
+    width: 132px;
+    line-height: 32px;
+    width: initial;
   }
 }
 

@@ -1,0 +1,47 @@
+.thtrm-teaser {
+  background-color: var(--thtrm-color-blue);
+  background-image: url('assets/intro-background-ppl-2-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
+  text-align: center;
+  min-height: 350px;
+  padding-top: 10em;
+
+  .thtrm-table-layout-cell:nth-child(2) & {
+    background-image: url('assets/intro-background-ppl-3-desktop.jpg');
+  }
+
+  .thtrm-table-layout-cell:nth-child(3) & {
+    background-image: url('assets/intro-background-ppl-desktop.jpg');
+  }
+}
+
+.thtrm-teaser-headline {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 0.8em;
+}
+
+.thtrm-teaser-cta {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: 600;
+  /* background-color: #fff; */
+  /* color: #123742; */
+
+  &:hover {
+    background-color: #fff;
+    color: #123742;
+  }
+
+}
+

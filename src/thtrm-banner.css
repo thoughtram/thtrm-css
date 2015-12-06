@@ -2,8 +2,13 @@
 
 .thtrm-banner {
   background-image: url('assets/intro-background-mobile.jpg');
-  background-position: center center;
-  background-size: cover;
+  /* background-position: center center; */
+  background-position-y: -30px;
+  /* background-size: cover; */
+  /* background-color: var(--thtrm-color-blue); */
+  /* background-color: #4d8799; */
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
 
   @media all and (--tablet-viewport) {
     background-image: url('assets/intro-background-tablet.jpg');
@@ -18,7 +23,7 @@
   color: #fff;
   text-align: center;
   margin: 0 auto;
-  text-shadow: 1px 1px 10px #000;
+  /* text-shadow: 1px 1px 10px #000; */
   text-transform: uppercase;
   font-size: 32px;
   font-weight: bold;
@@ -34,7 +39,7 @@
   }
 
   @media all and (--desktop-viewport) {
-    font-size: 78px;
+    font-size: 64px;
     line-height: 68px;
   }
 }
@@ -47,7 +52,7 @@
   margin: 0 auto;
   margin-top: 0.5em;
   text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
+  /* text-shadow: 1px 1px 10px #000; */
   font-weight: 600;
   width: 300px;
 
@@ -77,7 +82,7 @@
   }
 
   @media all and (--desktop-viewport) {
-    padding-top: 18em;
-    padding-bottom: 20em;
+    padding-top: 23em;
+    padding-bottom: 21em;
   }
 }

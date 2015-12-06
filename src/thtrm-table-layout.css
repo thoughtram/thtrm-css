@@ -25,6 +25,17 @@
 
   @media all and (--tablet-viewport) {
     display: table-cell;
-    width: 50%;
+
+    .--with-two-columns & {
+      width: 50%;
+    }
+
+    .--with-three-columns & {
+      width: 33.333333%;
+    }
+
+    .--with-four-columns & {
+      width: 25%;
+    }
   }
 }
