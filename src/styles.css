@@ -41,7 +41,6 @@ p {
   margin: 0 auto;
   padding: 0 0 0 0;
   min-height: 100%;
-  margin-top: -100px;
 
   @media all and (--desktop-viewport) {
     min-height: initial;
@@ -138,8 +137,8 @@ p {
   margin-top: 1em;
   color: rgba(56, 76, 84, 1);
   text-align: center;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
 
   .--is-promo & {
     color: #fff;
@@ -165,14 +164,29 @@ p {
 
 .thtrm-footer {
   background-color: rgba(56, 76, 84, 1);
-  padding-top: 130px;
+  padding-top: 120px;
 }
 
 .thtrm-footer-text {
   color: #fff;
   text-align: center;
-  padding: 2em;
+  padding: 4em;
   background-color: rgb(29, 46, 53);
+
+  p {
+    line-height: 28px;
+    color: rgb(109, 146, 160);
+
+    &:first-child {
+      color: #fff;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(109, 146, 160);
+    font-weight: 600;
+  }
 }
 
 .thtrm-footer-headline {

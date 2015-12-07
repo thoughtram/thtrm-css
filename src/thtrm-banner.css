@@ -9,6 +9,7 @@
   /* background-color: #4d8799; */
   background-color: #90BAC7;
   background-blend-mode: multiply;
+  margin-top: -100px;
 
   @media all and (--tablet-viewport) {
     background-image: url('assets/intro-background-tablet.jpg');
