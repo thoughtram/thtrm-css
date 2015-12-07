@@ -143,6 +143,7 @@ p {
   .--is-promo & {
     color: #fff;
     margin-top: 0.5em;
+    font-size: 18px;
   }
 }
 
@@ -160,16 +161,69 @@ p {
     color: #fff;
     border-color: #fff;
   }
+
+  &:hover {
+    color: var(--thtrm-color-even-darker-blue);
+    background-color: #fff;
+  }
 }
 
+.thtrm-testimonial {
+  background: var(--thtrm-color-even-darker-blue);
+}
+
+.thtrm-testimonial-image {
+  height: 300px;
+  background-color: var(--thtrm-color-blue);
+  background-image: url('assets/testimonial-celine.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
+  text-align: center;
+  position: relative;
+
+  .thtrm-table-layout-cell:nth-child(2) & {
+    background-image: url('assets/testimonial-mike.png');
+  }
+}
+
+.thtrm-testimonial-name {
+  color: #fff;
+  margin: 0;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+
+  span {
+    display: block;
+    font-size: 16px;
+  }
+}
+
+.thtrm-testimonial-content {
+  padding: 1.5em;
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+}
+
+
 .thtrm-footer {
-  background-color: rgba(56, 76, 84, 1);
-  padding-top: 120px;
+  background-color: var(--thtrm-color-even-darker-blue);
+  text-align: center;
 }
 
 .thtrm-footer-text {
   color: #fff;
-  text-align: center;
   padding: 4em;
   background-color: rgb(29, 46, 53);
 
@@ -186,6 +240,33 @@ p {
     text-decoration: none;
     color: rgb(109, 146, 160);
     font-weight: 600;
+  }
+}
+
+.thtrm-footer-text-cta {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 2em;
+}
+
+.thtrm-footer-cta {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #fff;
+    color: var(--thtrm-color-even-darker-blue);
+  }
+
+  .thtrm-footer-text-cta & {
+    margin-left: 0.5em;
   }
 }
 

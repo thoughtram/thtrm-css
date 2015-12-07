@@ -25,7 +25,7 @@
 
 .thtrm-instructor-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .thtrm-instructor-cta {
@@ -37,6 +37,11 @@
   padding: 0.5em 1em;
   font-weight: 600;
   margin-top: 1em;
+  margin-left: 0.5em;
+
+  &:first-child {
+    margin-left: 0;
+  }
 
   &:hover {
     background-color: #fff;
