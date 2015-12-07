@@ -8,7 +8,7 @@
   background-blend-mode: multiply;
   text-align: center;
   height: 450px;
-  padding: 13em 4em 4em;
+  padding: 13.5em 4em 4em;
 
   .thtrm-table-layout-cell:nth-child(2) & {
     background-image: url('assets/instructor-pascal.jpg');
