@@ -9,9 +9,7 @@
 
   @media all and (--tablet-viewport) {
     background-image: url('assets/intro-background-tablet.jpg');
-    background-position-y: -30px;
     background-size: initial;
-    margin-top: -100px;
   }
 
   @media all and (--desktop-viewport) {
@@ -23,9 +21,8 @@
   color: #fff;
   text-align: center;
   margin: 0 auto;
-  /* text-shadow: 1px 1px 10px #000; */
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 38px;
   font-weight: bold;
   line-height: 36px;
 
@@ -52,7 +49,6 @@
   margin: 0 auto;
   margin-top: 0.5em;
   text-transform: uppercase;
-  /* text-shadow: 1px 1px 10px #000; */
   font-weight: 600;
   width: 300px;
 
@@ -77,8 +73,8 @@
   padding: 16em 0.5em;
 
   @media all and (--tablet-viewport) {
-    padding-top: 16em;
-    padding-bottom: 16em;
+    padding-top: 22em;
+    padding-bottom: 22em;
   }
 
   @media all and (--desktop-viewport) {

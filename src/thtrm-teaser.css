@@ -1,21 +1,58 @@
+@import './variables';
+@import './custom-media';
+
 .thtrm-teaser {
   background-color: var(--thtrm-color-blue);
-  background-image: url('assets/intro-background-ppl-2-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-color: #90BAC7;
   background-blend-mode: multiply;
   text-align: center;
-  min-height: 350px;
-  padding-top: 10em;
+  padding: 6em 0;
 
-  .thtrm-table-layout-cell:nth-child(2) & {
-    background-image: url('assets/intro-background-ppl-3-desktop.jpg');
+  @media (--phablet-viewport) {
+    padding: 8em 0;
   }
 
-  .thtrm-table-layout-cell:nth-child(3) & {
-    background-image: url('assets/intro-background-ppl-desktop.jpg');
+  @media (--desktop-viewport) {
+    padding: 10em 0 6em;
+  }
+
+  &.--code-review {
+    background-image: url('assets/teaser-background-code-review.jpg');
+
+    @media (--phablet-viewport) {
+      background-image: url('assets/teaser-background-code-review_phablet.jpg');
+    }
+
+    @media (--tablet-viewport) {
+      background-image: url('assets/teaser-background-code-review.jpg');
+    }
+  }
+
+  &.--online-training {
+    background-image: url('assets/teaser-background-online-training_phone.jpg');
+
+    @media (--phablet-viewport) {
+      background-image: url('assets/teaser-background-online-training_phablet.jpg');
+    }
+
+    @media (--tablet-viewport) {
+      background-image: url('assets/teaser-background-online-training_phone.jpg');
+    }
+  }
+
+  &.--onsite-training {
+    background-image: url('assets/teaser-background-onsite-training_phone.jpg');
+
+    @media (--phablet-viewport) {
+      background-image: url('assets/teaser-background-onsite-training_phablet.jpg');
+    }
+
+    @media (--tablet-viewport) {
+      background-image: url('assets/teaser-background-onsite-training_phone.jpg');
+    }
   }
 }
 
@@ -35,13 +72,9 @@
   display: inline-block;
   padding: 0.5em 1em;
   font-weight: 600;
-  /* background-color: #fff; */
-  /* color: #123742; */
 
   &:hover {
     background-color: #fff;
     color: #123742;
   }
-
 }
-

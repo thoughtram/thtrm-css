@@ -1,0 +1,57 @@
+.thtrm-testimonial {
+  
+}
+
+.thtrm-testimonial-image {
+  height: 300px;
+  background-color: var(--thtrm-color-blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
+  text-align: center;
+  position: relative;
+
+  .--mike-adolphs & {
+    background-image: url('assets/testimonial-mike.png');
+  }
+
+  .--celine-kurpershoek & {
+    background-image: url('assets/testimonial-celine.jpg');
+  }
+
+  .--brad-green & {
+    background-image: url('assets/testimonial-brad.jpeg');
+  }
+}
+
+.thtrm-testimonial-name {
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+
+  span {
+    display: block;
+    font-size: 16px;
+  }
+}
+
+.thtrm-testimonial-content {
+  color: var(--thtrm-color-even-darker-blue);
+  padding: 2em 1.5em;
+
+  p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+
+

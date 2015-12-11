@@ -21,7 +21,6 @@
 .thtrm-table-layout-cell {
   vertical-align: top;
   height: 100%;
-  min-height: 320px;
 
   @media all and (--tablet-viewport) {
     display: table-cell;
