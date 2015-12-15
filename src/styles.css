@@ -27,7 +27,7 @@ body {
 
 body {
   margin: 0;
-  background: #DDD;
+  background: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
   min-height: 100%;
@@ -44,7 +44,11 @@ p {
   min-height: 100%;
 
   @media all and (--tablet-viewport) {
-    margin-top: -100px;
+    margin-top: -125px;
+
+    body.--sub-site & {
+      margin-top: 0;
+    }
   }
 
   @media all and (--desktop-viewport) {

@@ -4,6 +4,7 @@
 .thtrm-header {
   display: block;
   background-color: transparent;
+
 }
 
 .thtrm-header-bar {
@@ -13,8 +14,13 @@
   height: 70px;
   position: relative;
 
+  body.--sub-site & {
+    background-color: rgb(29, 46, 53);
+  }
+
   @media (--tablet-viewport) {
     height: initial;
+    padding-bottom: 25px;
   }
 }
 
@@ -137,7 +143,7 @@
     position: static;
     align-items: stretch;
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: transparent;
 
     li {

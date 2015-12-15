@@ -29,7 +29,7 @@ gulp.task('assets', function () {
 });
 
 gulp.task('html', function () {
-  gulp.src('index.html')
+  gulp.src('*.html')
     .pipe(gulp.dest('dist'));
 });
 
@@ -46,5 +46,5 @@ gulp.task('serve', ['styles', 'assets', 'html'], function () {
     },
   });
   gulp.watch('src/**/*.css', ['styles', serve.reload]);
-  gulp.watch('index.html', ['html', serve.reload]);
+  gulp.watch('*.html', ['html', serve.reload]);
 });
