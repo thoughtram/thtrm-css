@@ -1,0 +1,11 @@
+{
+  "name": "thtrm-css",
+  "version": "1.0.0",
+  "description": "Shared CSS across thoughtram projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pascal Precht <pascal@thoughtram.io>",
+  "license": "MIT"
+}
