@@ -16,30 +16,30 @@
   }
 
   &--code-review {
-    background-image: url('/images/teaser-background-code-review.jpg');
+    background-image: url('/assets/images/teaser-background-code-review.jpg');
 
     @include phablet {
-      background-image: url('/images/teaser-background-code-review_phablet.jpg');
+      background-image: url('/assets/images/teaser-background-code-review_phablet.jpg');
     }
   }
 
   &--online-training {
-    background-image: url('/images/teaser-background-online-training.jpg');
+    background-image: url('/assets/images/teaser-background-online-training.jpg');
 
     @include phablet {
-      background-image: url('/images/teaser-background-online-training_phablet.jpg');
+      background-image: url('/assets/images/teaser-background-online-training_phablet.jpg');
     }
   }
 
   &--onsite-training {
-    background-image: url('/images/teaser-background-onsite-training.jpg');
+    background-image: url('/assets/images/teaser-background-onsite-training.jpg');
 
     @include phablet {
-      background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
+      background-image: url('/assets/images/teaser-background-onsite-training_phablet.jpg');
     }
 
     @include tablet {
-      background-image: url('/images/teaser-background-onsite-training_desktop.jpg');
+      background-image: url('/assets/images/teaser-background-onsite-training_desktop.jpg');
     }
   }
 }
@@ -76,39 +76,39 @@
   background-blend-mode: multiply;
 
   &--conversation {
-    background-image: url('/images/teaser-background-online-training_phablet.jpg');
+    background-image: url('/assets/images/teaser-background-online-training_phablet.jpg');
   }
 
   &--group {
-    background-image: url('/images/background-ng-connect.jpg');
+    background-image: url('/assets/images/background-ng-connect.jpg');
   }
 
   &--other {
-    background-image: url('/images/background-onsite-training-group.jpg');
+    background-image: url('/assets/images/background-onsite-training-group.jpg');
   }
 
   &--review {
-    background-image: url('/images/code-review.jpg');
+    background-image: url('/assets/images/code-review.jpg');
   }
 
   &--review2 {
-    background-image: url('/images/teaser-background-code-review-2.jpg');
+    background-image: url('/assets/images/teaser-background-code-review-2.jpg');
   }
 
   &--testimonial-brad {
-    background-image: url('/images/testimonial-brad-green.png');
+    background-image: url('/assets/images/testimonial-brad-green.png');
   }
   &--amc {
-    background-image: url('/images/trainings-quote.jpg');
+    background-image: url('/assets/images/trainings-quote.jpg');
   }
   &--a2mc {
-    background-image: url('/images/trainings-quote-two.jpg');
+    background-image: url('/assets/images/trainings-quote-two.jpg');
   }
   &--gmc {
-    background-image: url('/images/trainings-quote-third.jpg');
+    background-image: url('/assets/images/trainings-quote-third.jpg');
   }
   &--prerequisites {
-    background-image: url('/images/prerequisites-cover.jpg');
+    background-image: url('/assets/images/prerequisites-cover.jpg');
   }
 }
 
@@ -116,7 +116,7 @@
   padding-bottom: 14%;
   padding-top: 14%;
   position: relative;
-  background: url('/images/user-story-almero.jpg') no-repeat center / cover;
+  background: url('/assets/images/user-story-almero.jpg') no-repeat center / cover;
   background-blend-mode: multiply;
   color: #fff;
   text-align: center;
