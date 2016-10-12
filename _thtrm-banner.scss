@@ -1,5 +1,5 @@
 .thtrm-banner {
-  background-image: url('/images/intro-background.jpg');
+  background-image: url('/assets/images/intro-background.jpg');
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
@@ -8,12 +8,12 @@
   text-align: center;
 
   @include phablet {
-    background-image: url('/images/intro-background-phablet.jpg');
+    background-image: url('/assets/images/intro-background-phablet.jpg');
   }
 
   @include tablet {
     background-position: center;
-    background-image: url('/images/intro-background-desktop.jpg');
+    background-image: url('/assets/images/intro-background-desktop.jpg');
   }
 
   .sub-site & {
@@ -21,50 +21,50 @@
   }
 
   &--training {
-    background-image: url('/images/teaser-background-onsite-training.jpg');
+    background-image: url('/assets/images/teaser-background-onsite-training.jpg');
 
     @include desktop {
-      background-image: url('/images/teaser-background-onsite-training_desktop.jpg');
+      background-image: url('/assets/images/teaser-background-onsite-training_desktop.jpg');
     }
   }
 
   &--code-review {
-    background-image: url('/images/teaser-background-code-review.jpg');
+    background-image: url('/assets/images/teaser-background-code-review.jpg');
 
     @include phablet {
       background-position: top center;
-      background-image: url('/images/teaser-background-code-review_phablet.jpg');
+      background-image: url('/assets/images/teaser-background-code-review_phablet.jpg');
     }
     @include desktop {
-      background-image: url('/images/teaser-background-code-review_desktop.jpg');
+      background-image: url('/assets/images/teaser-background-code-review_desktop.jpg');
     }
   }
 
   &--a2mc {
     background-position: left center;
-    background-image: url('/images/background-ng-connect.jpg');
+    background-image: url('/assets/images/background-ng-connect.jpg');
 
     @include tablet {
-      background-image: url('/images/background-ng-connect_desktop.jpg');
+      background-image: url('/assets/images/background-ng-connect_desktop.jpg');
     }
   }
 
   &--imprint {
-    background-image: url('/images/background-imprint.jpg');
+    background-image: url('/assets/images/background-imprint.jpg');
 
     @include tv {
-      background-image: url('/images/background-imprint_tv.jpg');
+      background-image: url('/assets/images/background-imprint_tv.jpg');
       background-position: top center;
     }
   }
 
   &--coc {
-    background-image: url('/images/thoughtram-crowd.jpg');
+    background-image: url('/assets/images/thoughtram-crowd.jpg');
     background-position: top center;
   }
 
   &--prepare {
-    background-image: url('/images/prerequisites-cover.jpg');
+    background-image: url('/assets/images/prerequisites-cover.jpg');
     background-position: top center;
   }
 }
