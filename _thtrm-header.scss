@@ -78,7 +78,7 @@
     }
 
     .thtrm-header-menu-label {
-      background-color: rgb(29, 46, 53);
+      background-color: #33414e;
     }
   }
 
@@ -101,7 +101,7 @@
 
   &:hover {
     cursor: pointer;
-    background-color: rgb(29, 46, 53);
+    background-color: #33414e;
 
     +.thtrm-header-menu {
       display: block;
@@ -142,7 +142,7 @@
   margin: 0;
   display: none;
   list-style: none;
-  background-color: rgb(29, 46, 53);
+  background-color: #33414e;
 
   @include tablet {
     position: static;
@@ -179,11 +179,12 @@
   color: #fff;
   display: block;
   border: 2px solid transparent;
+  transition: all ease 400ms;
 
   &:hover,
   &:focus,
   &.active {
-    background-color: #123742;
+    background-color: #3e6e7d;
     color: #fff;
   }
 
@@ -198,6 +199,8 @@
       background: transparent;
       border: 2px solid #fff;
     }
+
+    &.hidden-on-desktop { display: none; }
   }
 }
 
